@@ -21,7 +21,6 @@ class PostController extends Controller
      */
     public function index()
     {
-        dd(Category::find(2)->posts);
         // return route('post.create');
         // return redirect()->route('post.create');
         // return to_route('post.create'); // Desde laravel 9 se agrega to_route
